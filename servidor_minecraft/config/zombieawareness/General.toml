@@ -8,7 +8,7 @@
 	awareness_Light_OnlyZombies = true
 	#Custom targetting sight range on top of vanilla sight based targetting
 	#Range: > -2147483648
-	sightRange = 16
+	sightRange = 24
 	#Always target closest player [performance sensitive]
 	omniscient = false
 	#skips line of sight check on targetting [performance sensitive]
@@ -18,22 +18,22 @@
 	scentStrength = 60
 	#Effects how far monsters will sense sound sources from
 	#Range: > -2147483648
-	soundStrength = 60
+	soundStrength = 70
 	#max rate of spawning sound sources in milliseconds
 	#Range: > -2147483648
 	frequentSoundThreshold = 1000
 	#Range of extra random speed to give a zombie for extra spawns and zombie duplications, eg: 0 = no boost, 1 = up to double speed (works for my extra spawned mobs only)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	zombieRandSpeedBoost = 0.3
+	zombieRandSpeedBoost = 0.35
 	#The amount of delay in game ticks between processing mobs with enhanced AI, less is more frequent [performance sensitive]
 	#Range: > -2147483648
-	tickRateAILoop = 5
+	tickRateAILoop = 6
 	#how frequently the mod iterates all players, effects rates, less is more frequent
 	#Range: > -2147483648
 	tickRatePlayerLoop = 20
 	#How long before a mob can move around again to track a light source, or scent, or sound, increase number to reduce performance impact of mod if needed
 	#Range: > -2147483648
-	tickCooldownBetweenPathfinds = 300
+	tickCooldownBetweenPathfinds = 200
 	#How likely zombies making noise near you will attract other zombies, higher = less likely, 0 = every time they make a noise
 	#Range: > -2147483648
 	noisyZombiesReinforceOddsTo1 = 5
@@ -58,10 +58,10 @@
 	blockHittingEvent_Active = true
 	#Odds of hitting a block causing a sound sense, rolled per tick
 	#Range: > -2147483648
-	blockHittingEvent_OddsTo1 = 20
+	blockHittingEvent_OddsTo1 = 15
 	#Only spawn sound senses for players, if false, machines and other things will cause them too
 	blockBreakEvent_PlayersOnly = false
 	#Every 2 seconds, the percent chance a mob has to look for an active sense in range, 100 = nearly instant, 10 = slowly over time, performance sensitive setting, higher = more frequent pathfind attempts
 	#Range: > -2147483648
-	findSense_PercentChance = 10
+	findSense_PercentChance = 40
 
